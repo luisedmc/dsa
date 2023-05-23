@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void InsectionSort(int array[], int size)
+void InsertionSort(int array[], int size)
 {
     for (int i = 1; i < size; i++)
     {
@@ -20,7 +20,7 @@ int main()
     int array[5] = {9, 5, 7, 1, 2};
     int size = sizeof(array) / sizeof(array[0]);
 
-    InsectionSort(array, size);
+    InsertionSort(array, size);
 
     for (int i = 0; i < size; i++)
     {
